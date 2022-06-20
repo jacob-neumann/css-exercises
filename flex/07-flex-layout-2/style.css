@@ -8,21 +8,78 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 25px;
 }
+
+
+
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 16px;
+  margin: 0px;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  width: 325px;
+  padding:32px
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-body {
+  display: flex;
+  flex: 1;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 32px;
+}
+
+.sidebar ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.sidebar ul li {
+  list-style-type: none;
+
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 0px;
+  margin: 0px;
+  width: 300px;
+  flex-shrink: 0;
 }
